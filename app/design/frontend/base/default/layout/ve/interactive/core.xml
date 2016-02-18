@@ -1,0 +1,20 @@
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block type="core/template" name="ve.interactive.script" template="ve/interactive/script.phtml"/>
+        </reference>
+    </default>
+
+    <checkout_cart_index>
+        <reference name="before_body_end">
+            <block type="core/template" name="ve.interactive.hidden.base.subtotal"
+                   template="ve/interactive/hidden-base-subtotal.phtml"/>
+        </reference>
+    </checkout_cart_index>
+
+    <checkout_onepage_success>
+        <reference name="after_body_start">
+            <block type="core/template" name="ve.interactive.pixel" template="ve/interactive/pixel.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+</layout>

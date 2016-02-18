@@ -1,0 +1,21 @@
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <ve_interactive translate="title" module="ve_interactive">
+                                        <title>Ve Interactive Settings</title>
+                                    </ve_interactive>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

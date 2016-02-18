@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <ve_interactive translate="label" module="ve_interactive">
+            <label>Ve Interactive</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>2000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <key translate="label">
+                            <label>Key</label>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </key>
+                    </fields>
+                </settings>
+            </groups>
+        </ve_interactive>
+    </sections>
+</config>

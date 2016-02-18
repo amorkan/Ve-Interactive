@@ -1,0 +1,4 @@
+<?php if($_key = Mage::getStoreConfig('ve_interactive/settings/key')): ?>
+<img src="//drs2.veinteractive.com/DataReceiverService.asmx/Pixel?journeycode=<?php echo $_key; ?>"
+     width="1" height="1"/>
+<?php endif; ?>
