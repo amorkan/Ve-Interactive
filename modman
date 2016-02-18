@@ -1,0 +1,4 @@
+app/code/community/Ve/Interactive/                           app/code/community/Ve/Interactive/
+app/design/frontend/base/default/layout/ve/interactive/      app/design/frontend/base/default/layout/ve/interactive/
+app/design/frontend/base/default/template/ve/interactive/    app/design/frontend/base/default/template/ve/interactive/
+app/etc/modules/Ve_Interactive.xml                            app/etc/modules/Ve_Interactive.xml

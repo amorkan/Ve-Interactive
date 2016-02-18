@@ -1,0 +1,9 @@
+{
+    "description": "Ve Interactive Extension",
+    "name": "ve/interactive",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "type": "magento-module",
+    "version": "dev-master"
+}
